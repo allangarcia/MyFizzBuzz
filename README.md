@@ -22,7 +22,8 @@ How to open a project
 
 ## Release history
 
-- This is the only release (I Think ;)
+- Release 0.1 - This is the only release (I Think ;)
+- Release 0.2 - Some typo fixes and bugs fixes
 
 ## Next steps
 
