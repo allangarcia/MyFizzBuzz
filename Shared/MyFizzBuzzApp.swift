@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MyFizzBuzzApp: App {
+    
+    let myFizzBuzzStore = MyFizzBuzzStore()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyFizzBuzzView(store: myFizzBuzzStore)
         }
     }
 }
