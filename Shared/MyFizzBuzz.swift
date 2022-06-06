@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UIKit
 
 
 struct MyFizzBuzzConstants {
@@ -24,13 +23,13 @@ struct MyFizzBuzz {
     
     mutating func executeFizzBuzz(upto: Int) {
         resultArrayOfStrings = (0...upto).map { numerand in
-            if numerand.isDivisableBtFive() && numerand.isDivisableByThree() {
+            if numerand.isDivisableByFive() && numerand.isDivisableByThree() {
                 return MyFizzBuzzConstants.FIZZBUZZ_CONSTANT
             }
             if numerand.isDivisableByThree() {
                 return MyFizzBuzzConstants.FIZZ_CONSTANT
             }
-            if numerand.isDivisableBtFive() {
+            if numerand.isDivisableByFive() {
                 return MyFizzBuzzConstants.BUZZ_CONSTANT
             }
             return numerand.asString()
@@ -46,7 +45,7 @@ extension Int {
         self % 3 == 0 // Fizz
     }
 
-    func isDivisableBtFive() -> Bool {
+    func isDivisableByFive() -> Bool {
         self % 5 == 0 // Buzz
     }
     
