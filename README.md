@@ -26,9 +26,11 @@ How to open a project
 
 - Release 0.1 - This is the only release (I Think ;)
 - Release 0.2 - Some typo fixes and bugs fixes
+- Release 0.3 - Fixing explanation on README.md
 
 ## Next steps
 
+- Fix example on README.md
 - Maybe solve other problems typical to interviews in tech jobs using Swift (yes, this is a requirement!)
 - If you have one, you can try it yourself, maybe code with me, and maybe we can record a video solving it.
 
